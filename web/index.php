@@ -1,6 +1,6 @@
 <?php
 
-require('../vendor/autoload.php');
+/*require('../vendor/autoload.php');
 
 $app = new Silex\Application();
 $app['debug'] = true;
@@ -17,7 +17,7 @@ $app->get('/', function() use($app) {
   return 'Hello';
 });
 
-$app->run();
+$app->run();*/
 // comment out the following two lines when deployed to production
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 defined('YII_ENV') or define('YII_ENV', 'dev');
